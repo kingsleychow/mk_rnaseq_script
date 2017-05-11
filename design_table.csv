@@ -1,0 +1,13 @@
+SampleID,sampleName,Genotype,Condition
+F628,Sample_F628.count,WT,WT
+F837,Sample_F837.count,WT,WT
+F1029,Sample_F1029.count,WT,WT
+F1097,Sample_F1097.count,WT,WT
+354-2-8,Sample_354-2-8.count,TTN_up,MT
+543-1-1,Sample_543-1-1.count,TTN_up,MT
+372-1-10,Sample_372-1-10.count,TTN_up,MT
+371-1-6,Sample_371-1-6.count,TTN_up,MT
+553-2,Sample_553-2.count,TTN_down,MT
+556-1,Sample_556-1.count,TTN_down,MT
+555-1,Sample_555-1.count,TTN_down,MT
+564-1,Sample_564-1.count,TTN_down,MT
