@@ -1,10 +1,20 @@
 #!/bin/bash 
 #
+## location of batch1 data 
 batch1=./Seq_data/141119_SN674_0296_AC5P9CACXX/Unaligned/Project_C5P9CACXX
+
+## location of batch2 data 
 batch2=./Seq_data/150108_SN674_0300_AC5RNUACXX/Unaligned/Project_C5RNUACXX
+
+## root output directory 
 outputRoot=./tophat2_out
+
+## root directory of reference genome 
 refRoot=/home/gmsmiao/nextgen1/fibrosis/annotation/Homo_sapiens/Ensembl/CRCh38.78.primary
+
+## root directory of transcriptome genome 
 transcriptome=/home/gmsmiao/nextgen1/fibrosis/annotation/Homo_sapiens/Ensembl/CRCh38.78.primary/transcriptome
+
 
 for sample in $batch1/*;do 
 	sampleName=`basename $sample`
